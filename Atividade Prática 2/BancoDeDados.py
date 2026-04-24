@@ -26,3 +26,5 @@ class BancoDeDados:
         print(f"Empréstimo para {emprestimo.nome_usuario} e {emprestimo.titulo} registrado com sucesso.")
         return True
 
+    def __repr__(self):
+       return f"Emprestimo(Cliente: {self.cliente}, Valor: R${self.título}   
